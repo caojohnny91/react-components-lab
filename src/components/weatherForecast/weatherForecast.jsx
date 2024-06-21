@@ -1,4 +1,6 @@
-const weatherForecast = ({ day, img, imgAlt, conditions, time }) => {
+const weatherForecast = (forecast) => {
+  const { day, img, imgAlt, conditions, time } = forecast;
+
   return (
     <div className="weather">
       <h2>{day}</h2>
@@ -14,4 +16,5 @@ const weatherForecast = ({ day, img, imgAlt, conditions, time }) => {
     </div>
   );
 };
+
 export default weatherForecast;
