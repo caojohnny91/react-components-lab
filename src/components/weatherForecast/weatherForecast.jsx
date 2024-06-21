@@ -1,4 +1,4 @@
-const weatherForecast = (forecast) => {
+const WeatherForecast = (forecast) => {
   const { day, img, imgAlt, conditions, time } = forecast;
 
   return (
@@ -17,4 +17,4 @@ const weatherForecast = (forecast) => {
   );
 };
 
-export default weatherForecast;
+export default WeatherForecast;
